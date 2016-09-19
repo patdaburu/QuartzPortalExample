@@ -28,20 +28,20 @@ namespace QuartzPortalExample
         /// <summary>
         /// The URL for your Portal's REST services.
         /// </summary>
-        string portalUrl = "https://dev-portal-2.credonkulous.com/arcgis/sharing/rest";
+        string portalUrl = "https://myagsportal.com/arcgis/sharing/rest";
         /// <summary>
         /// The Portal user.
         /// </summary>
-        string portalUser = "pblair";
+        string portalUser = "user";
         /// <summary>
         /// The password for the Portal user.  (Needless to say, this is for
         /// demonstration purposes only.  Don't store your passwords like this.)
         /// </summary>
-        string portalPass = "GeoComm1";
+        string portalPass = "password";
         /// <summary>
         /// The ID of the web map we're going to load.
         /// </summary>
-        string webMapItemId = "ea0148211326468e87d628b4fb7e54b2";
+        string webMapItemId = "web_map_guid";
 
         public MainWindow()
         {
